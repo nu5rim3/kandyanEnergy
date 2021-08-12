@@ -28,7 +28,7 @@ function NavBar() {
                     </a>
                 </div>
                 <div>
-                    <a href="#" className="inline-block text-sm font-extrabold px-4 py-2 leading-none border border-green-400 rounded-lg text-black border-white hover:border-transparent hover:text-teal-500 hover:bg-green-400 hover:shadow hover:text-white mt-4 lg:mt-0">Get Quote!</a>
+                    <button href="#" className="inline-block text-sm font-extrabold px-4 py-2 leading-none border border-green-400 rounded-lg text-black  hover:border-transparent hover:text-teal-500 hover:bg-green-400 hover:shadow hover:text-white mt-4 lg:mt-0">Get Quote!</button>
                 </div>
             </div>
         </nav>
