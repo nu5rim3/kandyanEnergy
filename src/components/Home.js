@@ -6,7 +6,7 @@ function Home() {
         <div className="Section__home h-screen">
             <div className="Section__home__header grid grid-cols-12 gap-4">
                 <div className="col-start-2 col-span-10 flex">
-                    <div className="h-full w-1/2 flex flex-wrap content-center justify-start">
+                    <div className="h-full w-full sm:w-full md:w-full lg:w-full flex flex-wrap content-center justify-start">
                         <div className="Section__home__header__title w-full text-5xl font-extrabold text-white pb-10">Ready to Go Green?<br />We can help</div>
 
                         <div className="Section__home__header__subtitle w-full text-sm font-normal text-white">Kandyan Energy offers a variety of Renewable<br />Energy products and services throughout<br />Sri lanka.</div>

@@ -26,10 +26,32 @@ body {
 
   &__services {
     height: 100vh;
-    width: 100vw; 
+    width: 100vw;
 
     &__header {
-      height: 85vh;
+      height: 20vh;
+    }
+
+    &__detail {
+      height: 65vh;
+
+      &__item {
+        // background-color: red;
+
+        &__header {
+          // background-color: blue;
+        }
+
+        &__image {
+          // background-color: yellow;
+        }
+
+        &__button {
+          // border: 2px solid rgb(163, 158, 158);
+          // background-color: white;
+          // color: black;
+        }
+      }
     }
 
     &__bottom {
