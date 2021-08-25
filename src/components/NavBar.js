@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../logo.png'
-// import { Link } from "react-router-dom";
 
 function NavBar() {
     return (
@@ -15,7 +14,6 @@ function NavBar() {
             </div>
             <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden">
                 <div className="text-sm lg:flex-grow flex justify-between mx-44">
-                    {/* <Link></Link> */}
                     <a href="/services" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white  hover:text-green-400 mr-4 font-extrabold">
                         Services
                     </a>
@@ -23,7 +21,7 @@ function NavBar() {
                         Solutions
                     </a>
                     <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white hover:text-green-400 font-extrabold">
-                        Kandyan EV <div className="text-xs bg-red-300 h-5 w-12 px-3 rounded-xl">new</div>
+                        Kandyan EV <div className="text-xs bg-red-400 h-5 w-12 px-3 rounded-xl">new</div>
                     </a>
                     <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white hover:text-green-400 font-extrabold">
                         Contact

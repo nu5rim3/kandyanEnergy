@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #000000;
 }
 
 .Section {
@@ -56,6 +56,31 @@ body {
 
     &__bottom {
       height: 15vh;
+    }
+  }
+
+  &__feedback {
+    height: 100vh;
+    width: 100vw;
+
+    &__top {
+      height: 55vh;
+    }
+    &__bottom {
+      height: 45vh;
+    }
+  }
+
+  &__about {
+    &__top {
+      height: 60vh;
+    }
+    &__bottom {
+      background-image: url('/assets/images/9.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100% 100%;
+      height: 40vh;
     }
   }
 }
