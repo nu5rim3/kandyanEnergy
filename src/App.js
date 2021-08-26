@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Feedback from './components/Feedback';
 import About from './components/About';
 import EV from './components/EV';
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <Feedback />
       <About />
       <EV />
+      <Contact />
     </div>
   );
 }
