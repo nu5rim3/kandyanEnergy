@@ -18,7 +18,7 @@ function Home() {
             </div>
             <div className="Section__home__bottom h-full  flex flex-wrap content-center justify-center ">
                 <button className="Section__home__bottom__button hover:border-green-400 w-7 h-12 border-2 rounded-3xl">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hover:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white animate-bounce hover:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
                 </svg>
                 </button>
