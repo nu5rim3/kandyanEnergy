@@ -11,7 +11,7 @@ function EV() {
                         <div className="text-white text-4xl text-center font-extrabold">The first ever eBike on the Sri Lankan market.<br /> Dedicated to all EV fans!</div>
                     </div>
                 </div>
-                <div className="Section__ev__card col-start-3 col-span-8 bg-white rounded-2xl py-12">
+                <div className="Section__ev__card col-start-2 col-span-10 bg-white rounded-2xl py-12">
                     <div className="Section__ev__card__name text-gray-900 text-5xl text-center">SUPER 73</div>
                     <div className="Section__ev__card__image flex justify-center">
                         <img src={image_10} alt="ola bike" className="w-1/2" />

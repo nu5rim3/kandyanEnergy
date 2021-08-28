@@ -6,6 +6,7 @@ import Feedback from './components/Feedback';
 import About from './components/About';
 import EV from './components/EV';
 import Contact from './components/Contact';
+import Details from './components/Details';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <About />
       <EV />
       <Contact />
+      <Details />
     </div>
   );
 }

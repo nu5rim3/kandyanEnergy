@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <nav className="flex w-full items-center fixed justify-between flex-wrap bg-transparent p-6">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
-                <img src={logo} alt="Kandyan" className="w-44 h-24" />
+                <img src={logo} alt="Kandyan" className="w-56" />
             </div>
             <div className="block lg:hidden">
                 <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">

@@ -93,4 +93,16 @@ body {
   &__contact {
     height: 100vh;
   }
+
+  &__details {
+    height: 100vh;
+    
+    &__top {
+      height: 70vh;
+    }
+    &__bottom {
+      height: 30vh;
+      background-color: #131920;
+    }
+  }
 }
