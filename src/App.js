@@ -7,18 +7,30 @@ import About from './components/About';
 import EV from './components/EV';
 import Contact from './components/Contact';
 import Details from './components/Details';
+
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Home />
-      <Services />
-      <Feedback />
-      <About />
-      <EV />
-      <Contact />
-      <Details />
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Switch>
+          <Route path="/">
+            <Home />
+            <Services />
+            <Feedback />
+            <About />
+            <EV />
+            <Contact />
+            <Details />
+          </Route>
+          <Route path="/calculator">
+            <Contact />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
