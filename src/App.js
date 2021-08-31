@@ -8,7 +8,7 @@ import EV from './components/EV';
 import Contact from './components/Contact';
 import Details from './components/Details';
 
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -24,9 +24,6 @@ function App() {
             <EV />
             <Contact />
             <Details />
-          </Route>
-          <Route path="/calculator">
-            <Contact />
           </Route>
         </Switch>
       </div>
