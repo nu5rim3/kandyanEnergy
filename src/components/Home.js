@@ -27,7 +27,7 @@ function Home() {
                                     class="w-full rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
                             </div>
 
-                            <div className="Section__contact__card__form__fname col-span-8 h-10 flex justify-end">
+                            <div className="Section__contact__card__form__email col-span-8 h-10 flex justify-end">
                                 <input type="email"
                                     placeholder="Email"
                                     class="w-full rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
