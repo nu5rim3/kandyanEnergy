@@ -24,7 +24,7 @@ function Services() {
                             <div className="Section__services__detail__item__point mt-5 flex items-end">
                                 <div className="Section__services__detail__item__point__icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 p-1 mr-3 text-white bg-green-400 rounded" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
                                 <div className="Section__services__detail__item__point__text text-white font-extrabold text-base">Customizable for your use</div>
@@ -40,7 +40,7 @@ function Services() {
                             <div className="Section__services__detail__item__point mt-5 flex items-end">
                                 <div className="Section__services__detail__item__point__icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 p-1 mr-3 text-white bg-green-400 rounded" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
                                 <div className="Section__services__detail__item__point__text text-white font-extrabold text-base">Customizable for your use</div>
@@ -56,7 +56,7 @@ function Services() {
                             <div className="Section__services__detail__item__point mt-5 flex items-end">
                                 <div className="Section__services__detail__item__point__icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 p-1 mr-3 text-white bg-green-400 rounded" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
                                 <div className="Section__services__detail__item__point__text text-white font-extrabold text-base">Customizable for your use</div>

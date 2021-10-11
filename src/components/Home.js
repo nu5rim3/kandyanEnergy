@@ -12,10 +12,20 @@ function Home() {
 
     const [formData, setFormData] = useReducer(formReducer, {});
     const [submitting, setSubmitting] = useState(false);
+    const [loaded, setLoaded] = useState(false);
 
     const handleSubmit = event => {
         event.preventDefault();
         setSubmitting(true);
+        fetch('http://localhost:5000/api/solar/find?cbe_bill=3000')
+        .then(res => res.json())
+        .then(result => {
+            console.log(result)
+            setLoaded(true)
+        })
+        .catch(err => {
+            console.log(err)
+        })
 
         setTimeout(() => {
           setSubmitting(false);
@@ -23,6 +33,7 @@ function Home() {
         }, 3000)
      
     }
+
     return (
         <div className="Section__home h-screen">
             <div className="Section__home__header grid grid-cols-12 gap-4">
@@ -33,7 +44,7 @@ function Home() {
 
                         <div className="Section__home__header__subtitle w-full text-sm font-normal text-white">Kandyan Energy offers a variety of Renewable<br />Energy products and services throughout<br />Sri lanka.</div>
                     </div>
-                    <div className="h-full w-1/2 flex flex-wrap content-center justify-end pt-32">
+                    <div className={loaded?"invisible":"h-full w-1/2 flex flex-wrap content-center justify-end pt-32"}>
                         <form onSubmit={handleSubmit} className="Section__contact__card__form grid grid-cols-8 gap-4 bg-green-400 py-10 px-14 rounded-xl shadow-xl">
                             <div className="col-span-8 text-center font-semibold text-3xl pb-8">Calculate your bill</div>
                             <div className="Section__contact__card__form__fname col-span-4 h-10 flex justify-end">
