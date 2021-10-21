@@ -13,37 +13,37 @@ function Contact() {
                                 <div className="Section__contact__card__form__fname col-span-4 h-10 flex justify-end">
                                     <input type="text"
                                         placeholder="First Name"
-                                        class="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
+                                        className="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
 
                                 </div>
                                 <div className="Section__contact__card__form__lname col-span-4 h-10 flex justify-start">
                                     <input type="text"
                                         placeholder="Last Name"
-                                        class="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
+                                        className="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
                                 </div>
                                 <div className="Section__contact__card__form__email col-span-4 h-10 flex justify-end">
                                     <input type="email"
                                         placeholder="Email"
-                                        class="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
+                                        className="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
                                 </div>
 
                                 <div className="Section__contact__card__form__phone col-span-4 h-10 flex justify-start">
                                     <input type="tel"
                                         placeholder="Phone"
-                                        class="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
+                                        className="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
                                 </div>
                                 <div className="Section__contact__card__form__subject col-span-8 h-10 flex justify-center">
                                     <input type="text"
                                         placeholder="Subject"
-                                        class="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
+                                        className="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
                                 </div>
                                 <div className="Section__contact__card__form__label col-span-8  h-20 flex justify-center">
                                     <input type="text"
                                         placeholder="Label"
-                                        class="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
+                                        className="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
                                 </div>
                                 <div className="Section__contact__card__form__checkbox col-span-8  flex justify-center">
-                                    <input type="checkbox" class="rounded text-pink-500 mr-2 m-1" /><span className="text-sm"> By selecting this , you agree to the<span className="text-white"> Privacy Policy</span> and <span className="text-white">Cookie Policy</span></span>
+                                    <input type="checkbox" className="rounded text-pink-500 mr-2 m-1" /><span className="text-sm"> By selecting this , you agree to the<span className="text-white"> Privacy Policy</span> and <span className="text-white">Cookie Policy</span></span>
                                 </div>
                                 <div className="Section__contact__card__form__button col-span-8 h-10 flex justify-center">
                                     <button className="w-2/3 rounded-md bg-gray-900 flex items-center justify-center hover:shadow-xl hover:bg-gray-600">
