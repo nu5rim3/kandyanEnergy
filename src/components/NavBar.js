@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../logo.png'
-// import { Link } from "react-router-dom";
+import { Link } from 'react-scroll'
 
 function NavBar() {
     return (
@@ -9,28 +9,27 @@ function NavBar() {
                 <img src={logo} alt="Kandyan" className="w-56" />
             </div>
             <div className="block lg:hidden">
-                <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-black hover:border-white">
+                <Link to="home" spy={true} smooth={true} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-black hover:border-white">
                     <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
-                </button>
+                </Link>
             </div>
             <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden">
                 <div className="text-sm lg:flex-grow flex justify-between mx-44">
-
-                    <a href="/services" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black  hover:text-green-400 mr-4 font-extrabold">
+                    <Link to="services" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black  hover:text-green-400 mr-4 font-extrabold">
                         Services
-                    </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 mr-4 font-extrabold">
-                        Solutions
-                    </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
+                    </Link>
+                    <Link to="feed_back" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 mr-4 font-extrabold">
+                        Feedback
+                    </Link>
+                    <Link to="ev_section" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
                         Kandyan EV <div className="text-xs bg-red-400 h-5 w-12 px-3 rounded-xl text-white">new</div>
-                    </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
+                    </Link>
+                    <Link to="contact" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
                         Contact
-                    </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
+                    </Link>
+                    <Link to="about_us" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
                         About Us
-                    </a>
+                    </Link>
                 </div>
                 {/* <div>
                     <Link to="/calculator" >

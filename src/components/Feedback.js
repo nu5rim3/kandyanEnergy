@@ -8,7 +8,7 @@ import solar_4 from '../assets/images/solar_4.jpg'
 
 function Feedback() {
     return (
-        <div className="Section__feedback h-full bg-black">
+        <div className="Section__feedback h-full bg-black" id="feed_back">
             <div className="grid grid-cols-12">
                 <div className="col-start-2 col-span-10">
                     <div className="Section__feedback__top pt-32">

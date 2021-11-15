@@ -74,7 +74,7 @@ function Home() {
     }
 
     return (
-        <div className="Section__home h-screen">
+        <div className="Section__home h-screen" id="home">
             <div className="Section__home__header grid grid-cols-12 gap-4">
                 <div className="col-start-2 col-span-10 flex">
                     <div className="w-1/2 flex flex-wrap content-center justify-start pt-32">

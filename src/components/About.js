@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div className="Section__about bg-black">
+        <div className="Section__about bg-black" id="about_us">
             <div className="Section__about__top pt-32">
                 <div className="grid grid-cols-12">
                     <div className="col-start-2 col-span-10">

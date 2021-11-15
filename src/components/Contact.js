@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div className="Section__contact grid grid-cols-12 h-full">
+        <div className="Section__contact grid grid-cols-12 h-full" id="contact">
             <div className="col-start-2 col-span-10">
                 <div className="grid grid-cols-12 pt-56">
                     <div className="Section__contact__card col-span-12 bg-green-400 rounded-xl py-10">

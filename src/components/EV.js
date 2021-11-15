@@ -3,7 +3,7 @@ import image_10 from '../assets/images/10_1.png'
 
 function EV() {
     return (
-        <div className="Section__ev bg-black">
+        <div className="Section__ev bg-black" id="ev_section">
             <div className="grid grid-cols-12">
                 <div className="col-start-2 col-span-10 pb-10">
                     <div className="Section__ev__topic pt-32">
