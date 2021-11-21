@@ -14,11 +14,11 @@ function Feedback() {
                     <div className="Section__feedback__top pt-32">
                         <div className="Section__feedback__top__topic text-green-400 font-semibold text-xl">Feedback around Sri Lanka</div>
                         <div className="flex flex-wrap">
-                            <div className="w-2/3">
+                            <div className="w-full md:w-2/3">
                                 <div className="text-white font-extrabold text-3xl pt-10">Solutions to fit all your energy requirements.<br />From home use to industrial scale</div>
-                                <div className="text-gray-400 text-sm pt-5 w-1/2">Be Ethical: We manage our conduct by what is right for people, the environment, and the profession we love. We are in business primarily to solve the world’s #1 issue of global warming and to grow local, sustainable jobs. Profits follow.</div>
+                                <div className="text-gray-400 text-sm pt-5 w-full md:w-1/2">Be Ethical: We manage our conduct by what is right for people, the environment, and the profession we love. We are in business primarily to solve the world’s #1 issue of global warming and to grow local, sustainable jobs. Profits follow.</div>
                             </div>
-                            <div className="w-1/3">
+                            <div className="hidden md:flex md:w-1/3">
                                 <img src={image_8} alt="kandyan energy map" className="w-full h-full mb-10" />
                             </div>
                         </div>
@@ -26,7 +26,7 @@ function Feedback() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-12">
+            <div className="grid-cols-12 hidden md:grid">
                 <div className="col-start-2 col-span-10">
                     <div className="Section__feedback__bottom">
                         <div className="Section__feedback__bottom__topic text-white font-semibold text-1xl pb-5">See our work</div>

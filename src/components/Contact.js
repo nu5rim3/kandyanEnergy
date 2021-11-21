@@ -6,8 +6,8 @@ function Contact() {
             <div className="col-start-2 col-span-10">
                 <div className="grid grid-cols-12 pt-56">
                     <div className="Section__contact__card col-span-12 bg-green-400 rounded-xl py-10">
-                        <div className="Section__contact__card__title text-center text-4xl font-extrabold pb-5">We’d love to hear from you</div>
-                        <div className="Section__contact__card__subtitle text-center text-sm font-semibold text-gray-300 pb-5">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet.<br /> Sapien tortor lacus arcu.</div>
+                        <div className="Section__contact__card__title text-center text-2xl md:text-4xl font-extrabold pb-5">We’d love to hear from you</div>
+                        <div className="Section__contact__card__subtitle text-center text-sm font-semibold text-gray-300 pb-5 px-5">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet.<br /> Sapien tortor lacus arcu.</div>
                         <div className="col-start-2">
                             <div className="Section__contact__card__form grid grid-cols-8 gap-4">
                                 <div className="Section__contact__card__form__fname col-span-4 h-10 flex justify-end">
@@ -42,7 +42,7 @@ function Contact() {
                                         placeholder="Label"
                                         className="w-2/3 rounded-lg px-3 focus:outline-none focus:ring focus:border-blue-300" />
                                 </div>
-                                <div className="Section__contact__card__form__checkbox col-span-8  flex justify-center">
+                                <div className="Section__contact__card__form__checkbox col-span-8  flex justify-center px-5">
                                     <input type="checkbox" className="rounded text-pink-500 mr-2 m-1" /><span className="text-sm"> By selecting this , you agree to the<span className="text-white"> Privacy Policy</span> and <span className="text-white">Cookie Policy</span></span>
                                 </div>
                                 <div className="Section__contact__card__form__button col-span-8 h-10 flex justify-center">

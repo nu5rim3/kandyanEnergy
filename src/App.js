@@ -20,8 +20,8 @@ function App() {
             <Home />
             <Services />
             <Feedback />
-            <About />
             <EV />
+            <About />
             <Contact />
             <Details />
           </Route>

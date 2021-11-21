@@ -6,7 +6,7 @@ import insta from '../assets/images/instagram_1.png'
 
 function Details() {
     return (
-        <div className="Section__details grid grid-cols-12">
+        <div className="Section__details grid-cols-12 hidden md:grid">
 
             <div className="Section__details__top pt-44 col-start-2 col-span-10">
                 <div className="grid grid-cols-12 pb-14 border-b-2 border-gray-500">

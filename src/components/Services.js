@@ -6,7 +6,7 @@ import image_6 from '../assets/images/6.png'
 
 function Services() {
     return (
-        <div className="Section__services h-full" id="services">
+        <div className="Section__services h-full hidden md:grid" id="services">
             <div className="Section__services__header bg-black">
                 <div className="grid grid-cols-12  h-full flex-wrap content-end">
                     <div className="col-start-2 col-span-10 text-green-400 pb-5">
