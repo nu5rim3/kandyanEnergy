@@ -6,7 +6,7 @@ import image_6 from '../assets/images/6.png'
 
 function Services() {
     return (
-        <div className="Section__services h-full hidden md:grid" id="services">
+        <div className="Section__services h-full grid" id="services">
             <div className="Section__services__header bg-black">
                 <div className="grid grid-cols-12  h-full flex-wrap content-end">
                     <div className="col-start-2 col-span-10 text-green-400 pb-5">
@@ -14,7 +14,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className="Section__services__detail grid grid-cols-12 bg-black h-full">
+            <div className="Section__services__detail hidden md:grid grid-cols-12 bg-black h-full">
                 <div className="col-start-2 col-span-10 h-full">
                     <div className="grid grid-flow-row sm:grid-flow-col gap-2 h-full">
                         <div className="Section__services__detail__item">
@@ -68,17 +68,28 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className="Section__services__bottom bg-green-400 w-full px-32">
+            <div className="Section__services__bottom bg-green-400 hidden md:grid px-32">
                 <div className="col-start-2 col-span-10 flex flex-wrap items-center justify-between h-full">
-                <div className="Section__services__bottom__image">
-                <img src={image_3} alt="play" className="h-full w-32" />
+                    <div className="Section__services__bottom__image">
+                        <img src={image_3} alt="play" className="h-full w-10 md:w-32" />
+                    </div>
+                    <div className="Section__services__bottom__text font-extrabold text-sm md:text-3xl text-center">Get a recommendation according to your <br />electricity bill!</div>
+                    <div className="Section__services__bottom__corner">
+                        <button className="Section__services__bottom__button h-10 w-28 mt-5 rounded-md bg-black flex items-center justify-center hover:shadow-md">
+                            <div className="font-bold text-white">Get Quote!</div>
+                        </button>
+                    </div>
                 </div>
-                <div className="Section__services__bottom__text font-extrabold text-3xl text-center">Get a recommendation according to your <br />electricity bill!</div>
-                <div className="Section__services__bottom__corner">
-                    <button className="Section__services__bottom__button h-10 w-28 mt-5 rounded-md bg-black flex items-center justify-center hover:shadow-md">
-                        <div className="font-bold text-white">Get Quote!</div>
-                    </button>
-                </div>
+            </div>
+
+            <div className="Section__services__bottom  bg-green-400 w-full md:hidden px-5 md:px-32 py-5">
+                <div className="grid items-center justify-between h-full">
+                    <div className="Section__services__bottom__text col-span-12 font-bold text-sm text-center">Get a recommendation according to your <br />electricity bill!</div>
+                    <div className="Section__services__bottom__corner col-span-12">
+                        <button className="Section__services__bottom__button h-8 w-20 rounded-md bg-black flex items-center justify-center hover:shadow-md">
+                            <div className="text-xs text-white">Get Quote!</div>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
