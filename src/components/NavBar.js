@@ -24,11 +24,11 @@ function NavBar() {
                     <Link to="ev_section" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
                         Kandyan EV <div className="text-xs bg-red-400 h-5 w-12 px-3 rounded-xl text-white">new</div>
                     </Link>
-                    <Link to="contact" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
-                        Contact
-                    </Link>
                     <Link to="about_us" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
                         About Us
+                    </Link>
+                    <Link to="contact" spy={true} smooth={true} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-black hover:text-green-400 font-extrabold">
+                        Contact
                     </Link>
                 </div>
                 {/* <div>
