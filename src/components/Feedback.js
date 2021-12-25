@@ -15,8 +15,8 @@ function Feedback() {
                         <div className="Section__feedback__top__topic text-green-400 font-semibold text-xl">Feedback around Sri Lanka</div>
                         <div className="flex flex-wrap">
                             <div className="w-full md:w-2/3">
-                                <div className="text-white font-extrabold text-3xl pt-10">Solutions to fit all your energy requirements.<br />From home use to industrial scale</div>
-                                <div className="text-gray-400 text-sm pt-5 w-full md:w-1/2">Be Ethical: We manage our conduct by what is right for people, the environment, and the profession we love. We are in business primarily to solve the world’s #1 issue of global warming and to grow local, sustainable jobs. Profits follow.</div>
+                                <div className="text-white font-extrabold text-lg md:text-3xl pt-10">Solutions to fit all your energy requirements.<br />From home use to industrial scale</div>
+                                <div className="text-gray-400 text-xs md:text-sm pt-5 w-full md:w-1/2">Be Ethical: We manage our conduct by what is right for people, the environment, and the profession we love. We are in business primarily to solve the world’s #1 issue of global warming and to grow local, sustainable jobs. Profits follow.</div>
                             </div>
                             <div className="hidden md:flex md:w-1/3">
                                 <img src={image_8} alt="kandyan energy map" className="w-full h-full mb-10" />
@@ -66,6 +66,40 @@ function Feedback() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="grid md:hidden py-12 px-7">
+                <div className="grid grid-cols-2 gap-2">
+                    <div className="text-white">
+                        <img src={solar_4} alt="kandyan energy" className="Section__feedback__bottom__card__image h-30 rounded" />
+                        <div className="flex flex-wrap justify-between pt-1 pb-3">
+                            <div className="Section__feedback__bottom__card__type text-xs text-white font-semibold">solarX panel</div>
+                            <div className="Section__feedback__bottom__card__volt text-xs text-green-400 font-bold">⚡ 53000kW</div>
+                        </div>
+                    </div>
+                    <div className="text-white">
+                        <img src={solar_4} alt="kandyan energy" className="Section__feedback__bottom__card__image h-30 rounded" />
+                        <div className="flex flex-wrap justify-between pt-1 pb-3">
+                            <div className="Section__feedback__bottom__card__type text-xs text-white font-semibold">solarX panel</div>
+                            <div className="Section__feedback__bottom__card__volt text-xs text-green-400 font-bold">⚡ 53000kW</div>
+                        </div>
+                    </div>
+                    <div className="text-white">
+                        <img src={solar_3} alt="kandyan energy" className="Section__feedback__bottom__card__image h-30 rounded" />
+                        <div className="flex flex-wrap justify-between pt-1 pb-3">
+                            <div className="Section__feedback__bottom__card__type text-xs text-white font-semibold">solarX panel</div>
+                            <div className="Section__feedback__bottom__card__volt text-xs text-green-400 font-bold">⚡ 53000kW</div>
+                        </div>
+                    </div>
+                    <div className="text-white">
+                        <img src={solar_4} alt="kandyan energy" className="Section__feedback__bottom__card__image h-30 rounded" />
+                        <div className="flex flex-wrap justify-between pt-1 pb-3">
+                            <div className="Section__feedback__bottom__card__type text-xs text-white font-semibold">solarX panel</div>
+                            <div className="Section__feedback__bottom__card__volt text-xs text-green-400 font-bold">⚡ 153000kW</div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
