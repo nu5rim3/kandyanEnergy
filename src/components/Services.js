@@ -81,13 +81,58 @@ function Services() {
                     </div>
                 </div>
             </div>
+            <div className="md:hidden">
+            <div className="grid grid-cols-2 md:hidden px-5 py-1">
+                <div className="Section__service__image">
+                    <img src={image_4} alt="play" className="Section__services__detail__item__image rounded-xl w-25 h-35 m-1" />
+                </div>
+                <div className="Section__services__detail__item px-3">
+                    <div className="Section__services__detail__item__header text-white text-lg font-bold w-full mb-1">Residential</div>
+                    <div className="Section__services__detail__item__dis text-white text-xs font-medium">Our innovative community solar & project development solutions make solar ...</div>
+                    <div>
+                        <button className="Section__services__detail__item__button h-6 w-20 mt-2 rounded-md border-2 border-green-400 flex items-center justify-center hover:bg-green-400">
+                            <div className="font-bold text-green-400 hover:text-white text-xs">View more</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-            <div className="Section__services__bottom  bg-green-400 w-full md:hidden px-5 md:px-32 py-5">
+            <div className="grid grid-cols-2 md:hidden px-5 py-1">
+                <div className="Section__service__image">
+                    <img src={image_5} alt="play" className="Section__services__detail__item__image rounded-xl w-25 h-35 m-1" />
+                </div>
+                <div className="Section__services__detail__item px-3">
+                    <div className="Section__services__detail__item__header text-white text-lg font-bold w-full mb-1">Corparete</div>
+                    <div className="Section__services__detail__item__dis text-white text-xs font-medium">Our innovative community solar & project development solutions make solar ...</div>
+                    <div>
+                        <button className="Section__services__detail__item__button h-6 w-20 mt-2 rounded-md border-2 border-green-400 flex items-center justify-center hover:bg-green-400">
+                            <div className="font-bold text-green-400 hover:text-white text-xs">View more</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-2 md:hidden px-5 py-1 pb-3">
+                <div className="Section__service__image">
+                    <img src={image_6} alt="play" className="Section__services__detail__item__image rounded-xl w-25 h-35 m-1" />
+                </div>
+                <div className="Section__services__detail__item px-3">
+                    <div className="Section__services__detail__item__header text-white text-lg font-bold w-full mb-1">Ground-mount</div>
+                    <div className="Section__services__detail__item__dis text-white text-xs font-medium">Our innovative community solar & project development solutions make solar ...</div>
+                    <div>
+                        <button className="Section__services__detail__item__button h-6 w-20 mt-2 rounded-md border-2 border-green-400 flex items-center justify-center hover:bg-green-400">
+                            <div className="font-bold text-green-400 hover:text-white text-xs">View more</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div className="Section__services__bottom  bg-green-400 w-full md:hidden px-5 md:px-32 py-3">
                 <div className="grid items-center justify-between h-full">
                     <div className="Section__services__bottom__text col-span-12 font-bold text-sm text-center">Get a recommendation according to your <br />electricity bill!</div>
-                    <div className="Section__services__bottom__corner col-span-12">
+                    <div className="Section__services__bottom__corner col-span-12 flex items-center justify-center py-1">
                         <button className="Section__services__bottom__button h-8 w-20 rounded-md bg-black flex items-center justify-center hover:shadow-md">
-                            <div className="text-xs text-white">Get Quote!</div>
+                            <div className="text-xs text-white font-bold">Get Quote!</div>
                         </button>
                     </div>
                 </div>
